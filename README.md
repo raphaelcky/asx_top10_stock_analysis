@@ -20,11 +20,35 @@ To run this notebook:
 
 Open the Jupyter Notebook and execute each cell sequentially.
 
-## Expected Output
+## Expected Output 
 
-Stock Performance Charts
+### Stock Performance Metrics
 
-Summary Statistics of ASX's top 10 stocks
+The mean returns provide insight into the average profitability of the ASX stocks, while the standard deviation measures their volatility.
 
-Optimized Portfolio Allocation
+Stocks with higher mean returns and moderate volatility are considered favorable for investment.
+
+### Covariance Matrix Interpretation
+
+The covariance matrix highlights the relationship between different stocks.
+
+A high positive covariance means two stocks tend to move in the same direction, reducing diversification benefits.
+
+A low or negative covariance suggests diversification potential, reducing overall portfolio risk.
+
+### Optimal Portfolio Allocation
+
+The optimal weights indicate how much investment should be allocated to each stock for an optimized risk-return tradeoff.
+
+Stocks with higher allocations are expected to contribute positively to portfolio returns, while low or negative weights suggest they may not be beneficial in a risk-managed portfolio.
+
+### Portfolio Risk and Return Analysis
+
+The portfolio return and variance help determine the expected gains and associated risks.
+
+A low standard deviation means a more stable investment, while a higher return with moderate risk is preferred for an optimized portfolio.
+
+
+
+
 
